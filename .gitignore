@@ -1,0 +1,6 @@
+parts/
+vcs-pre-commit/
+bin/
+.idea/
+develop-eggs/
+.installed.cfg
