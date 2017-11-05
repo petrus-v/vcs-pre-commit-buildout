@@ -1,4 +1,4 @@
-# VCS-PRE-COMMIT BUILDOUT
+# VCS-PRE-COMMIT BUILDOUT
 
 
 This help to install and configure 
@@ -6,7 +6,7 @@ This help to install and configure
 with [buildout](http://www.buildout.org)
 
 
-## Install
+## Install
 
 This is what I've done on my Debian Jessie
 
@@ -33,7 +33,7 @@ Add this part in you ``~/.hgrc`` file
 precommit.vcs-pre-commit = vcs-pre-commit --vcs hg
 ```
 
-### Git
+### Git
 
 With git you can't set global hooks, but we still have a way using template
 directory:
@@ -54,7 +54,7 @@ You can simply do `git init` on existing repos to apply your git template.
 
 * [git-init documentation](http://git-scm.com/docs/git-init)
 
-## Similar projects
+## Similar projects
 
 * [pre-commit](http://pre-commit.com): As I understood, this aims to configure
   GIT pre-commit hooks per project, so if you are workgins on multiple projects
