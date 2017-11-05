@@ -57,5 +57,6 @@ You can simply do `git init` on existing repos to apply your git template.
 ## Similar projects
 
 * [pre-commit](http://pre-commit.com): As I understood, this aims to configure
-  GIT pre-commit hooks per project, so if you are workgins on multiple projects
-  requiring similar pre-commit hooks and with multiple vcs this can be painfull.
+  GIT pre-commit hooks per project (yes inside the project). Wher vcs-pre-commit
+  assume you are workgins on multiple projects
+  requiring similar pre-commit hooks and with multiple vcs.
